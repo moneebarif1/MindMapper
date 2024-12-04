@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "KeyWord Summarizer",
+  "version": "1.0.1",
+  "description": "It is a dev competition testing summraizez api of google chrome for summary agains key ponts",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/summary.png",
+      "32": "icons/summary.png",
+      "48": "icons/summary.png",
+      "128": "icons/summary.png"
+    }
+  },
+  "icons": {
+    "16": "icons/summary.png",
+    "32": "icons/summary.png",
+    "48": "icons/summary.png",
+    "128": "icons/summary.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
